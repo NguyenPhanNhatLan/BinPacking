@@ -34,7 +34,7 @@ class PalletPackingEngine:
                         return packed
         return None
 
-    def pack_items(self, items, ins = 0.04):
+    def pack_items(self, items):
         packed = []
         for item in items:
             result = self.place_item(item)

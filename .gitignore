@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm / VSCode settings
+.idea/
+.vscode/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.cache
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# dotenv / secrets
+.env
+*.env
+
+# macOS & Linux
+.DS_Store
+Thumbs.db
